@@ -1,5 +1,6 @@
 <?php
-	require_once 'conexao.php';
+ 
+	require_once '../conexao/conexao.php';
 	//busca linhas da tabela tipos
 	$sql = "SELECT * FROM categorias ORDER BY nome";
 	$resultado = mysqli_query($conexao, $sql);

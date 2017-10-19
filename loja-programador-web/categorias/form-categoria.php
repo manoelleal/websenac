@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Cadastrar Nova Categoria</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
-<body>
-  <div class="container">
-    <a href="index.php">
-      <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-      Home
-    </a>
+<?php require_once '../includes/head.php'; ?>
+<?php require_once '../includes/menu.php'; ?>
+<link rel="stylesheet" href="../recursos/css/loja.css">
+<div class="container">
     <h3>Cadastrar Nova Categoria</h3>
     <form action="create-categoria.php" method="post">
       <div class="form-group">
@@ -33,5 +24,5 @@
       </div>
     </form>
   </div>
-</body>
-</html>
+</div>
+<?php require_once '../includes/footer.php'; ?>
