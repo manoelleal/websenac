@@ -10,7 +10,7 @@ header("Location: formulario.php");
 
 $user ="manoelneto";
 $senha_fake = "12345678";
-  $login = $_POST['login'];
+ $login = $_POST['login'];
  $senha = $_POST['senha'];
 
 if($user == $login &&  $senha_fake == $senha){
