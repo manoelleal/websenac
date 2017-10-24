@@ -1,3 +1,5 @@
+git remote rm origin
+
 <?php
  $data = date("Y");
  if($data >= 2017){
